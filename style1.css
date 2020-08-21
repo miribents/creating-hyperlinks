@@ -1,0 +1,146 @@
+html {
+    text-align: center;
+    float: inherit;
+    background-color: #343a40;
+    align-items: center;
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  font-family: Open Sans, Helvetica Neue;
+}
+
+#eingabeZeit{
+    
+    width: 115px;
+    background-color: #343a40;
+    /*linear-gradient(to right, gray, white, gray)*/
+    color: #fff;
+    margin-right: -15px;
+    font-size: 35px;
+    font-family: Open Sans, Helvetica Neue;
+    border-width: 0px;
+    border-radius: 5px;
+    outline: none;
+}
+
+#zurueckPfeilIcon{
+	position: absolute;
+	left: 15px;
+	top: 15px;	
+	color: #fff;
+	cursor: pointer;
+	font-size: 30px;
+	transition: 0.5s;
+}
+
+#zurueckPfeilIcon:hover{
+	transition: 0.5s;
+    transform: translateX(-2px);
+}
+
+/* entfernt die pfeile am input */
+input[type=time]::-webkit-inner-spin-button,
+input[type=time]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+#eingabeDerZeit p{
+	color: #fff;
+	font-size: 35px;
+	margin: 10px;
+}
+
+#weiterBtn{
+	width: 300px;
+    color: white;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-width: 0px;
+    background-color: #dc3545;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.5s;
+    font-family: Open Sans, Helvetica Neue;
+}
+
+#weiterBtn:hover{
+    cursor: pointer;
+    background-color: #c9303f;
+    transition: 0.5s;
+    transform: translateY(-2px);
+}
+
+.button1{
+  color: white;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-width: 0px;
+  background-color: dimgray;
+  border-style: solid;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.button1:hover{
+  cursor: pointer;
+  background-color: #4F4F4F;
+}
+
+.button1:active{
+  transform: translateY(2px);
+}
+
+
+#countdownContainer p{
+	color: #fff;
+	margin-bottom: 0px;
+}
+
+#countdownContainer h1{
+	color: #fff;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#countdownContainer small{
+	color: #fff;
+}
+
+#timer6er, #endDate6er{
+	display: none;
+}
+
+.switchTimerArrows{
+	position: absolute;
+	top: calc(50% - 5px);
+	left: calc(50% - 14px);
+	font-size: 28px;
+	color: #fff;
+}
+
+#linkerTimerPfeilIcon{
+	margin-left: -125px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+#linkerTimerPfeilIcon:hover{
+	transition: 0.5s;
+    transform: translateX(-1px);
+}
+
+#rechterTimerPfeilIcon{
+	margin-left: 125px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+#rechterTimerPfeilIcon:hover{
+	transition: 0.5s;
+    transform: translateX(1px);
+}
